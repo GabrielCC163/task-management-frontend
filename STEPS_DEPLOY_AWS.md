@@ -28,3 +28,7 @@
 ```
 
 Subtitua example.com pelo nome do bucket.
+
+4. No arquivo base-http.service.js, certifique-se de que a BASE_URL esteja apontando para a API.
+
+5. Execute yarn:build e importe no S3 os arquivos gerados na pasta build.
